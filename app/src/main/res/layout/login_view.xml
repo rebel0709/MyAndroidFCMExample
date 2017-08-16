@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/spinner"
+            android:layout_width="420dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="?attr/colorPrimary"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:paddingLeft="0dp"
+            android:text="English"
+            android:textAlignment="gravity"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+
+        <LinearLayout
+            android:id="@+id/langbar"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/txt_en"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="English"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:id="@+id/txt_es"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Spanish"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:id="@+id/txt_tr"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Turkish"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:id="@+id/txt_ar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Arabic"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <io.codetail.widget.RevealFrameLayout
+                    android:id="@+id/login_window"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/login_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        card_view:cardCornerRadius="10dp" />
+                </io.codetail.widget.RevealFrameLayout>
+
+                <io.codetail.widget.RevealFrameLayout
+                    android:id="@+id/register_window"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/register_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible"
+                        card_view:cardCornerRadius="10dp" />
+                </io.codetail.widget.RevealFrameLayout>
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/register_fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right|end"
+                    android:src="@drawable/ic_add"
+                    android:tint="@color/material_login_login_color"
+                    app:backgroundTint="@color/material_login_register_color"
+                    app:layout_anchor="@id/login_window"
+                    app:layout_anchorGravity="right|end|top" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_gravity="bottom">
+
+
+        <TextView
+
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="?attr/colorPrimary"
+        android:gravity="center"
+        android:minHeight="40dp"
+        android:paddingLeft="0dp"
+        android:text="RedSocialCubana"
+        android:textAlignment="gravity"
+        android:textColor="@color/green"
+            android:id="@+id/textView4"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

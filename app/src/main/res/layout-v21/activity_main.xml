@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment2_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false">
+
+        <FrameLayout
+            android:id="@+id/container_body2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <cuban.social.testnetwork.view.CustomDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/parent_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                tools:context=".MainActivity">
+
+                <!--<LinearLayout-->
+                <!--android:id="@+id/container_toolbar"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<include-->
+                <!--android:id="@+id/toolbar"-->
+                <!--layout="@layout/toolbar" />-->
+
+                <!--</LinearLayout>-->
+
+                <include layout="@layout/margin_for_toolbar" />
+
+                <FrameLayout
+                    android:id="@+id/container_body"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fitsSystemWindows="true"
+                    android:visibility="visible" />
+
+
+
+            </LinearLayout>
+
+
+            <fragment
+                android:id="@+id/fragment_navigation_drawer"
+                android:name="cuban.social.testnetwork.FragmentDrawer"
+                android:layout_width="@dimen/nav_drawer_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                app:layout="@layout/fragment_navigation_drawer"
+                tools:layout="@layout/fragment_navigation_drawer" />
+
+        </cuban.social.testnetwork.view.CustomDrawerLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/tools">
+
+    <Button
+        android:id="@+id/bt_create_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE GROUP" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bt_create_group"
+        android:id="@+id/container_body" >
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/container_items"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:background="@color/white">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="24dp"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:src="@drawable/ic_action_add_friend"
+        android:visibility="gone"
+        ads:fabSize="normal"
+        app:layout_anchor="@id/container_body"
+        fab:fab_colorNormal="@color/colorFloatActionButton"
+        fab:fab_colorPressed="@color/colorFloatActionButton"
+        fab:fab_colorRipple="@color/colorRipple" />
+</RelativeLayout>

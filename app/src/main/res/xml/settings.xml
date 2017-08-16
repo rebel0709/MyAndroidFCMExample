@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="header_general"
+        android:title="@string/settings_header_general">
+
+        <ListPreference
+            android:entries="@array/lang_name_key"
+            android:entryValues="@array/lang_name_values"
+            android:key="langSelect"
+            android:summary="@string/choose_lang" />
+
+        <CheckBoxPreference
+            android:key="allowComments"
+            android:title="@string/settings_allow_comments"></CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="allowMessages"
+            android:summary="@string/settings_allow_messages_summary"
+            android:title="@string/settings_allow_messages"></CheckBoxPreference>
+
+        <Preference
+            android:key="settings_push_notifications"
+            android:title="@string/settings_notifications" />
+
+        <Preference
+            android:enabled="true"
+            android:key="settings_change_password"
+            android:summary=""
+            android:title="@string/settings_change_password" />
+
+        <Preference
+            android:enabled="true"
+            android:key="settings_deactivate_account"
+            android:summary=""
+            android:title="@string/settings_deactivate_account" />
+
+        <Preference
+            android:key="settings_blocked_list"
+            android:title="@string/settings_view_blocked_list" />
+
+        <Preference
+            android:key="settings_services"
+            android:summary="@string/settings_services_summary"
+
+            android:title="@string/settings_services" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="header_about"
+        android:title="@string/settings_header_about">
+
+        <Preference
+            android:key="settings_terms"
+            android:summary=""
+
+            android:title="@string/settings_terms" />
+
+        <Preference
+            android:key="settings_thanks"
+            android:summary=""
+
+            android:title="@string/settings_thanks" />
+
+        <Preference
+            android:key="settings_version"
+            android:summary="@string/settings_copyright_info"
+
+            android:title="@string/settings_version" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="header_others"
+        android:title="@string/settings_header_others">
+
+        <Preference
+            android:enabled="true"
+            android:key="settings_logout"
+            android:summary=""
+            android:title="@string/settings_logout" />
+
+        <Preference
+            android:key="settings_contact_us"
+            android:summary="@string/settings_contact_us_summary"
+
+            android:title="@string/settings_contact_us" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

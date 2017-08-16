@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Group Title" />
+
+    <EditText
+        android:id="@+id/group_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Group's Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/create_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Group" />
+</LinearLayout>

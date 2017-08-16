@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "986093543307",
+    "firebase_url": "https://redsocualcubana.firebaseio.com",
+    "project_id": "redsocualcubana",
+    "storage_bucket": "redsocualcubana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986093543307:android:e2cf360f9855de40",
+        "android_client_info": {
+          "package_name": "cuban.social.testnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986093543307-k47ngoelufq2pco0p037ig0uc4io503g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmzjI04G9_Q4rrmGm6x4_LlHydph-k770"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

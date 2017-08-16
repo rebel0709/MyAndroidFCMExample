@@ -1,0 +1,344 @@
+<resources>
+    <string name="app_name">كوبانسوسيالنيتوورك</string>
+    <string name="app_version">3.6.0</string>
+    <string name="app_year">2016</string>
+    <string name="app_copyright">redsocialcubana.com</string>
+    <string name="app_email">patrone@live.com</string>
+    <string name="app_site">http://redsocialcubana</string>
+
+    <string name="facebook_app_id">161642437531701</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="action_login">تسجيل الدخول</string>
+    <string name="action_signup">التسجيل</string>
+    <string name="action_logout">تسجيل الخروج</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="action_continue">مواصلة</string>
+    <string name="action_unblock">إلغاء حظر</string>
+    <string name="action_block">كتلة</string>
+    <string name="action_about">حول</string>
+    <string name="action_ok">موافق</string>
+    <string name="action_yes">نعم</string>
+    <string name="action_no">لا</string>
+    <string name="action_copy">نسخة</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_send">إرسال</string>
+    <string name="action_open">فتح</string>
+    <string name="action_edit">تحرير</string>
+    <string name="action_reply">الرد</string>
+    <string name="action_refresh">قم بتحديث</string>
+    <string name="action_report">التقرير</string>
+    <string name="action_remove">حذف</string>
+    <string name="action_remove_chat">حذف الدردشة</string>
+    <string name="action_deactivate">إلغاء تنشيط</string>
+    <string name="action_create">إنشاء</string>
+    <string name="action_cancel">إلغاء الأمر</string>
+    <string name="action_close">قم بإغلاق</string>
+    <string name="action_more">تحميل المزيد</string>
+    <string name="action_post">وظيفة</string>
+    <string name="Video_error">موافق</string>
+    <string name="action_search">البحث عن</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_turn_on">قم بتشغيل</string>
+    <string name="action_turn_off">إيقاف تشغيل</string>
+    <string name="action_select_birth">تاريخ الميلاد</string>
+    <string name="action_camera">صور من الكاميرا</string>
+    <string name="action_video">فيديو من معرض الصور</string>
+    <string name="action_video_camera">الفيديو من الكاميرا</string>
+    <string name="action_gallery">صورة من معرض الصور</string>
+    <string name="action_copy_url">نسخ الارتباط</string>
+    <string name="action_open_url">فتح في مستعرض</string>
+    <string name="settings_allow_comments">السماح بالتعليقات على وظيفة لي</string>
+    <string name="settings_allow_messages">تلقي رسائل من أي شخص</string>
+    <string name="settings_allow_messages_summary">سوف تكون قادراً على تلقي "رسائل مباشرة" من أي مستخدم حتى لو كنت لا تتبع لهم.</string>
+    <string name="action_share">حصة</string>
+    <string name="action_share_on_wall">على الجدار</string>
+    <string name="action_follow">يتبع</string>
+    <string name="action_unfollow">فولو</string>
+    <string name="action_new">وظيفة جديدة</string>
+    <string name="action_profile_edit_photo">تحرير الصور</string>
+    <string name="action_profile_edit_cover">تحرير الغلاف</string>
+    <string name="action_profile_edit">تحرير</string>
+    <string name="action_login_with_facebook">تسجيل الدخول باستخدام فيس بوك</string>
+    <string name="action_signup_with_facebook">التوقيع مع فيسبوك</string>
+    <string name="action_connect_with_facebook">التواصل مع فيسبوك</string>
+    <string name="action_remove_connection">إزالة اتصال</string>
+    <string name="action_regular_signup">العودة إلى نموذج التسجيل العادية</string>
+    <string name="action_forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="label_profile_report_0">البريد المزعج</string>
+    <string name="label_profile_report_1">الخطاب المحرض على الكراهية أو العنف</string>
+    <string name="label_profile_report_2">عرى أو إباحية</string>
+    <string name="label_profile_report_3">الشخصية وهمية</string>
+    <string name="label_profile_report_4">القرصنة</string>
+    <string name="label_sex_undefined">لم يتم تعيين نوع الجنس</string>
+    <string name="label_sex_male">ذكر نوع الجنس</string>
+    <string name="label_sex_female">ذكر نوع الجنس</string>
+    <string name="placeholder_password">كلمة المرور</string>
+    <string name="placeholder_login">اسم المستخدم</string>
+    <string name="placeholder_fullname">الاسم الكامل</string>
+    <string name="placeholder_location">موقع</string>
+    <string name="placeholder_facebook_page">صفحة فيسبوك</string>
+    <string name="placeholder_instagram_page">صفحة Instagram</string>
+    <string name="placeholder_bio">المزاج</string>
+    <string name="placeholder_email">البريد الإلكتروني</string>
+    <string name="placeholder_subject">هذا الموضوع</string>
+    <string name="placeholder_support_detail">ما هي يمكنك الاتصال بنا حول؟</string>
+    <string name="placeholder_current_password">كلمة المرور الحالية</string>
+    <string name="placeholder_new_password">كلمة المرور الجديدة</string>
+    <string name="placeholder_item_category">الفئة</string>
+    <string name="placeholder_item_title">العنوان</string>
+    <string name="placeholder_item_login">اسم المستخدم، البريد الإلكتروني أو الهاتف</string>
+    <string name="placeholder_item_passw">كلمة المرور</string>
+    <string name="placeholder_item_url">موقع ويب</string>
+    <string name="placeholder_item_description">الوصف</string>
+    <string name="placeholder_post">What\ بعقلك؟</string>
+    <string name="placeholder_search">البحث عن</string>
+    <string name="placeholder_comment">اكتب تعليقاً...</string>
+    <string name="placeholder_message">اكتب رسالة...</string>
+    <string name="placeholder_repost">التعليق الخاص بك...</string>
+    <string name="msg_loading">الرجاء الانتظار...</string>
+    <string name="msg_loading_2">تحميل. الرجاء الانتظار...</string>
+    <string name="msg_network_error">الرجاء التحقق من اتصالك بالإنترنت</string>
+    <string name="msg_account_blocked">تم حظر هذا الحساب قبل وسيط.</string>
+    <string name="msg_copied_to_clipboard">نسخ إلى الحافظة.</string>
+    <string name="msg_enter_item">الرجاء كتابة شيء أو إرفاق الصور أو الفيديو.</string>
+    <string name="video_length_over">نأسف لطول الفيديو أكثر من 2 دقيقة</string>
+    <string name="msg_enter_msg">الرجاء كتابة شيء أو إرفاق صور.</string>
+    <string name="msg_send_msg_error">لا يمكن إرسال رسالة إلى المستخدم.</string>
+    <string name="msg_item_posted">البند قد تم ترحيلها بنجاح.</string>
+    <string name="msg_item_saved">وقد تم بنجاح حفظ العنصر.</string>
+    <string name="msg_password_changed">بنجاح تغيير كلمة المرور</string>
+    <string name="msg_settings_saved">الإعدادات التي تم حفظها بنجاح.</string>
+    <string name="msg_ticket_send_success">يتم قبول الطلب الخاص بك! وسوف تتلقى ردا على رسالة البريد الإلكتروني، المشار إليها في الطلب.</string>
+    <string name="msg_password_reset_link_sent">وقد تم إرسال رسالة مع رابط لإعادة تعيين كلمة المرور الخاصة بك إلى البريد الإلكتروني الخاص بك.</string>
+    <string name="msg_no_such_user_in_bd">لا يوجد المستخدم هذه في قاعدة البيانات</string>
+    <string name="msg_connect_to_facebook_success">قمت بنجاح بربط التطبيق مع الحساب الخاص بك على ألفيس بوك!</string>
+    <string name="msg_connect_to_facebook_error">الحساب الخاص بك على ألفيس بوك مقترن بالفعل بحساب آخر.</string>
+    <string name="msg_connect_to_facebook_removed">الاتصال باستخدام حساب فيس بوك الخاص بك إزالة.</string>
+    <string name="msg_comment_has_been_added">وقد تم إضافة التعليق.</string>
+    <string name="msg_chat_has_been_removed">لقد تمت إزالة المحادثة.</string>
+    <string name="msg_profile_removed_from_blacklist">تتم إزالة المستخدم من القائمة المحظورة.</string>
+    <string name="msg_profile_link_copied">ارتباط الشخصية نسخها إلى الحافظة.</string>
+    <string name="msg_post_link_copied">وظيفة وصلة نسخها إلى الحافظة.</string>
+    <string name="msg_profile_added_to_blacklist">تتم إضافة المستخدم إلى القائمة الممنوعة.</string>
+    <string name="msg_comments_disabled">لا تريد المستخدم أن يعلق على مناصبه.</string>
+    <string name="msg_post_has_been_shared">وقد تم تقاسم هذا المنصب للأخبار الخاصة بك الأصدقاء.</string>
+    <string name="msg_post_has_been_already_shared">قمت مسبقاً بمشاركة هذا المنصب.</string>
+    <string name="msg_post_has_shared_error">أنت قد لا الرابع وظيفة الخاص بك.</string>
+    <string name="error_signin">اسم المستخدم غير صحيح أو كلمة المرور</string>
+    <string name="error_internet_connection">لا يوجد اتصال إنترنت</string>
+    <string name="error_data_loading">عند تحميل البيانات خطأ قد حدث. تحقق من اتصال الشبكة الخاص بك.</string>
+    <string name="error_field_empty">الحقول المطلوبة فارغة</string>
+    <string name="error_wrong_format">تنسيق غير صحيح</string>
+    <string name="error_small_password">الحد الأدنى 6 أحرف</string>
+    <string name="error_small_username">الحد الأدنى 5 أحرف</string>
+    <string name="error_small_fullname">أحرف الحد الأدنى 2</string>
+    <string name="error_login_taken">اسم المستخدم بالفعل اتخاذ إجراءات</string>
+    <string name="error_email_taken">تم بالفعل تسجيل المستخدم مع هذا البريد</string>
+    <string name="error_password">كلمة المرور غير صالحة.</string>
+    <string name="error_email">البريد الإلكتروني غير صالح.</string>
+    <string name="label_gcm_like">لديك جديدة مثل.</string>
+    <string name="label_gcm_comment">لديك تعليق جديد.</string>
+    <string name="label_gcm_follower">لديك من اتباع جديدة.</string>
+    <string name="label_gcm_friend">لديك صديق جديد.</string>
+    <string name="label_gcm_message">لديك رسالة جديدة.</string>
+    <string name="label_gcm_comment_reply">لديك رد جديد التعليق.</string>
+    <string name="label_authorization_via_facebook">إذن عن طريق ألفيس بوك.</string>
+    <string name="label_account_connected_to_facebook">متصل مع فيسبوك</string>
+    <string name="label_account_connect_to_facebook">ربط هذا الحساب بحسابات الشبكة الاجتماعية الخاصة بك</string>
+    <string name="label_empty_list">القائمة غير فارغ.</string>
+    <string name="label_post_share">آخر مشاركة</string>
+    <string name="label_post_share_desc">هل تريد نشر هذه الوظيفة على الحائط الخاص بك؟</string>
+    <string name="label_location_prompt">السماح بالوصول إلى الموقع الخاص بك لتمكين ميزات تقاسم المكان في الوظائف.</string>
+    <string name="label_block">كتلة</string>
+    <string name="label_block_msg">لن تكون قادرة على كتابة التعليقات إلى مشاركاتك وإرسال الرسائل الخاصة بك، وأنت لن ترى الإخطارات الواردة من</string>
+    <string name="label_delete">حذف</string>
+    <string name="label_delete_msg">هل تريد حذف هذا المنصب؟</string>
+    <string name="label_delete_comment">هل أنت متأكد من أنك تريد حذف هذا التعليق؟</string>
+    <string name="label_post_report_title">تقرير إساءة</string>
+    <string name="label_last_message_image">الصورة</string>
+    <string name="label_you_havent_items">You haven\'t posts.</string>
+    <!-- TODO label_you_havent_items remove-->
+    <string name="label_user_havent_items">هذا المستخدم لديه لا وظيفة.</string>
+    <string name="label_profile_reported">وذكرت الشخصية.</string>
+    <string name="label_post_reported">أفادت صحيفة بوست.</string>
+    <string name="label_select_img">حدد الصورة</string>
+    <string name="label_select_video">حدد الفيديو</string>
+    <string name="label_delete_img">حذف العنصر المرفقة؟</string>
+    <string name="label_account_disabled">حظر الحساب</string>
+    <string name="label_search_start_screen_msg">العثور على الناس باسم المستخدم أو الاسم أو البريد الإلكتروني.</string>
+    <string name="label_search_results">العثور على الأشخاص:</string>
+    <string name="label_search_results_error">لم يتم العثور على نتائج</string>
+    <string name="label_likes_item">يحب مشاركتك.</string>
+    <string name="label_comment_added">إضافة تعليق جديد.</string>
+    <string name="label_comment_reply_added">رد على التعليق الخاص بك.</string>
+    <string name="label_follow_you">عليك اتباعها.</string>
+    <string name="label_post_to_dialog_title">مشاركة مع</string>
+    <string name="label_post_to">إلى:</string>
+    <string name="label_post_to_followers">شوهد</string>
+    <string name="label_post_to_public">العام</string>
+    <string name="label_post_location">الموقع:</string>
+    <string name="label_items">الوظائف</string>
+    <string name="label_followers">شوهد</string>
+    <string name="label_followings">التالية</string>
+    <string name="label_likes">يحب</string>
+    <string name="label_online">عبر الإنترنت</string>
+    <string name="label_offline">غير متصل</string>
+    <string name="label_to">إلى</string>
+    <string name="signup_label_1">بالضغط على تسجيل الدخول، يمكنك الموافقة على موقعنا</string>
+    <string name="signup_label_terms_and_policies">الشروط والسياسات</string>
+    <string name="settings_header_general">العام</string>
+    <string name="settings_header_others">الآخرين</string>
+    <string name="settings_header_about">حول</string>
+    <string name="settings_header_notifications">إعلام</string>
+    <string name="settings_notifications_likes">يحب</string>
+    <string name="settings_notifications_comments">تعليقات</string>
+    <string name="settings_notifications_followers">شوهد</string>
+    <string name="settings_notifications_messages">الرسائل الخاصة</string>
+    <string name="settings_notifications_comment_reply">رد على التعليق</string>
+    <string name="settings_version">الإصدار</string>
+    <string name="settings_logout">تسجيل الخروج</string>
+    <string name="settings_copyright_info">معلومات حقوق التأليف والنشر</string>
+    <string name="settings_contact_us">اتصل بنا</string>
+    <string name="settings_contact_us_summary">الإبلاغ عن مشكلة</string>
+    <string name="settings_web_site">موقعنا على الإنترنت</string>
+    <string name="settings_view_blocked_list">حظر عرض قائمة</string>
+    <string name="settings_deactivate_account">إلغاء تنشيط الحساب</string>
+    <string name="settings_edit_account">التوقيع للأسرار الخاصة بك</string>
+    <string name="settings_thanks">شكر وتقدير</string>
+    <string name="settings_terms">شروط الاستخدام</string>
+    <string name="settings_change_password">تغيير كلمة المرور</string>
+    <string name="settings_services">الخدمات</string>
+    <string name="settings_notifications">دفع الإخطارات</string>
+    <string name="settings_services_summary">الاتصال مع شبكة اجتماعية الحسابات</string>
+    <string name="settings_account_deactivation">إذا قمت بالمتابعة إلغاء تنشيط الحساب الخاص بك، يمكنك ابدأ العودة. إذا كنت تريد أن تأتي إلى الوراء--سوف يكون you\ لإنشاء حساب جديد.</string>
+    <string name="settings_file">حساب</string>
+    <string name="settings_account_id">يشير معرف _ الحساب</string>
+    <string name="settings_account_username">account_username</string>
+    <string name="settings_account_access_token">access_token</string>
+    <string name="page_1">بلدي في العالم</string>
+    <string name="page_2">الصفحة الرئيسية</string>
+    <string name="page_3">اكتشاف</string>
+    <string name="page_4">شعبية</string>
+    <string name="page_5">أصدقاء</string>
+    <string name="page_6">إعلامات</string>
+    <string name="page_7">رسائل</string>
+    <string name="page_8">المفضلة</string>
+    <string name="page_9">البحث عن</string>
+    <string name="page_10">ألبوم الصور</string>
+
+    <string-array name="navDrawerItems">
+        <item>Profile</item>
+        <item>My Album</item>
+        <item>Home</item>
+        <item>Discover</item>
+        <item>Popular</item>
+        <item>Friends</item>
+        <item>Notifications</item>
+        <item>Messages</item>
+        <item>Favorites</item>
+        <item>Search</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string-array name="navDrawerIcons">
+        <item>@drawable/ic_action_profile3</item>
+        <item>@drawable/ic_action_gallery3</item>
+        <item>@drawable/ic_action_feed3</item>
+        <item>@drawable/ic_action_stream3</item>
+        <item>@drawable/ic_action_popular3</item>
+        <item>@drawable/ic_action_friends3</item>
+        <item>@drawable/ic_action_notifications3</item>
+        <item>@drawable/ic_action_messages3</item>
+        <item>@drawable/ic_action_favorites3</item>
+        <item>@drawable/ic_action_search3</item>
+        <item>@drawable/ic_action_settings3</item>
+    </string-array>
+    <string name="drawer_open">فتح</string>
+    <string name="drawer_close">قم بإغلاق</string>
+    <string name="title_activity_login">تسجيل الدخول</string>
+    <string name="title_activity_signup">التسجيل</string>
+    <string name="title_activity_main">تيار</string>
+    <string name="title_activity_recovery">استعادة كلمة المرور</string>
+    <string name="title_activity_settings">إعدادات</string>
+    <string name="title_activity_web_view">عرض ويب</string>
+    <string name="title_activity_change_password">تغيير كلمة المرور</string>
+    <string name="title_activity_services">الخدمات</string>
+    <string name="title_activity_new_item">وظيفة جديدة</string>
+    <string name="title_activity_view_item">وظيفة</string>
+    <string name="title_activity_profile">الشخصية</string>
+    <string name="hello_world">مرحبا بالعالم!</string>
+    <string name="title_activity_search">البحث عن</string>
+    <string name="title_activity_notifications">إعلامات</string>
+    <string name="title_activity_photo_view">صور</string>
+    <string name="title_activity_hashtags">Hashtags</string>
+    <string name="title_activity_followings">فيما يلي أبرز العناوين</string>
+    <string name="title_activity_followers">شوهد</string>
+    <string name="title_activity_feeds">تغذية</string>
+    <string name="title_activity_likes">الشعب الذي يحب هذا</string>
+    <string name="title_activity_account_settings">إعدادات</string>
+    <string name="title_activity_report">التقرير</string>
+    <string name="title_activity_pro">روح المبادرة</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+    <string name="title_activity_black_list">قائمة المحظورين</string>
+    <string name="title_activity_dialogs">رسائل</string>
+    <string name="title_activity_chat">دردشة</string>
+    <string name="title_activity_notifications_settings">دفع الإخطارات</string>
+    <string name="title_activity_favorites">المفضلة</string>
+    <string name="title_activity_support">اتصل بنا</string>
+    <string name="title_activity_location">موقع</string>
+    <string name="title_activity_edit_item">تحرير</string>
+    <string name="title_activity_deactivate">إلغاء تنشيط الحساب</string>
+    <string name="title_activity_repost">آخر مشاركة</string>
+    <string name="label_delete_photo_msg">هل تريد حذف هذه الصورة؟</string>
+    <string name="title_activity_new_photo">فيديو/صور جديدة</string>
+    <string name="title_activity_galery">معرض الصور</string>
+    <string name="msg_enter_photo">الرجاء اختيار صورة للمنشور.</string>
+    <string name="label_photo_reported">الصورة التي ذكرت.</string>
+    <string name="placeholder_photo">التعليق على الصورة...</string>
+    <string name="label_photos">صور</string>
+    <string name="error_player">خطأ مشغل</string>
+    <string name="ContiuneReading">مواصلة القراءة</string>
+    <string name="error">خطأ</string>
+    <string name="error_format">[خطأ] % s</string>
+    <string name="google_play_not_available">جوجل تلعب الخدمات غير متوفرة</string>
+    <string name="youtube_upload_started">تحميل الشبكة الاجتماعية الكوبية بدأت</string>
+    <string name="connection_to_google_play_failed">فشل الاتصال "خدمات اللعب".</string>
+    <string name="youtube_upload">تحميل يوتيوب</string>
+    <string name="not_signed_in">لم توقع</string>
+    <string name="initiation_started">الشروع في البدء</string>
+    <string name="initiation_completed">الشروع في إنجاز</string>
+    <string name="upload_in_progress">توجيه لايت تحميل في التقدم</string>
+    <string name="yt_upload_completed">تحميل يوتيوب أكمل</string>
+    <string name="upload_completed">تحميل المكتملة</string>
+    <string name="upload_not_started">لم يبدأ التحميل!</string>
+    <string name="yt_upload_failed">تحميل يوتيوب فشل</string>
+    <string name="reauth_required">إعادة تسجيل الدخول المطلوبة</string>
+    <string name="please_try_again">الرجاء المحاولة مرة أخرى</string>
+    <string name="cant_access_play">Can\' ر الحصول على خدمات غوغل اللعب</string>
+    <string name="see_the_newly_uploaded_video">مشاهدة الفيديو الذي تم تحميله حديثا</string>
+    <string name="watch_your_video">مشاهدة الفيديو الخاص بك</string>
+    <string name="device_not_supported_message">FFmpeg غير معتمد على الجهاز الخاص بك</string>
+    <string name="device_not_supported">الجهاز غير معتمد</string>
+    <string name="msg_pls_click">من فضلك، انقر فوق أدناه لتحميل الصور والفيديو</string>
+    <string name="choose_lang">اختيار اللغة</string>
+    <string name="like">مثل</string>
+    <string name="repost">ربوست</string>
+    <string name="comment">التعليق</string>
+
+
+    <string-array name="lang_name_key">
+        <item>Default</item>
+        <item>Spanish</item>
+        <item>Turkish</item>
+        <item>Arabic</item>
+    </string-array>
+
+    <string-array name="lang_name_values">
+        <item>en</item>
+        <item>es</item>
+        <item>tr</item>
+        <item>ar</item>
+    </string-array>
+
+</resources>

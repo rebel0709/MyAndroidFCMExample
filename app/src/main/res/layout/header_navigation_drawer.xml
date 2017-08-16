@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_header_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:gravity="center">
+    <!--android:layout_alignParentTop="true"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_drawer_width"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary">
+        <!--android:layout_marginBottom="8dp"-->
+        <ImageView
+            android:id="@+id/userCover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/app_logo"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_marginBottom="16dp"-->
+
+
+            <com.pkmmte.view.CircularImageView
+                android:id="@+id/userPhoto"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/profile_default_photo"
+                app:border="true"
+                app:border_color="#fff"
+                app:border_width="4dp"
+                app:shadow="true" />
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_marginLeft="16dp"-->
+
+            <TextView
+                android:id="@+id/userFullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/userUsername"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toEndOf="@+id/userPhoto"
+                android:layout_toRightOf="@+id/userPhoto"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/profile_verify_icon"
+                android:shadowColor="@color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:singleLine="true"
+                android:text="User fullname"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/userUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/userPhoto"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toEndOf="@+id/userPhoto"
+                android:layout_toRightOf="@+id/userPhoto"
+                android:shadowColor="@color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:singleLine="true"
+                android:text="\@username"
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chathead_relativelayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/chathead_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/app_logo" />
+
+    <TextView
+        android:id="@+id/headCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble_counter_bkg"
+        android:padding="5dp"
+        android:text="1"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
